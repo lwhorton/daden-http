@@ -1,0 +1,11 @@
+{
+  "name": "daden_http",
+  "version": "0.0.1",
+  "description": "Opinionated, data-driven abstraction over http and graphql.",
+  "main": "src/lwhorton/daden_http/core.cljs",
+  "author": "lwhorton",
+  "license": "EPL 1.0",
+  "dependencies": {
+    "shadow-cljs": "^2.6.23"
+  }
+}

@@ -1,0 +1,11 @@
+{
+ :deps {:aliases [:cljs]}
+
+ :builds
+ {:app {:target :browser
+        :output-dir "public/js"
+        :asset-path "/js"
+        :modules {:main {:entries [lwhorton.daden-http.core]}}
+        :compiler-options {:infer-externs :auto}
+        :devtools {:http-root "public"
+                   :http-port 8080}}}}
